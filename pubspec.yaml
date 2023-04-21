@@ -1,0 +1,46 @@
+name: ezhealth_app
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  auto_size_text_pk: ^3.0.0
+  carousel_slider: ^4.0.0
+  connectivity: ^3.0.6
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^4.4.2
+  firebase_core: ^2.10.0
+  firebase_database: ^10.1.1
+  firebase_core_platform_interface: ^4.6.0
+  flutter:
+    sdk: flutter
+  flutter_html: ^2.2.1
+  flutter_onboarding_slider: ^1.0.7
+  font_awesome_flutter: ^10.4.0
+  google_fonts: ^4.0.3
+  http: ^0.13.3
+  lottie: ^2.3.2
+  page_transition: ^2.0.4
+  provider: ^6.0.1
+  razorpay_flutter: ^1.2.7
+  shared_preferences: ^2.0.9
+  showcaseview: ^2.0.3
+  url_launcher: ^6.0.12
+  webview_flutter: ^2.0.13
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
